@@ -26,6 +26,9 @@ int main()
 {
     int a=5,b=-5;
 
-    printf("bitwise not :%d\n",~a); // ->result -6  -(n+1)
-    printf("bitwise not :%d",~b); // ->result 4   +(n-1)
+    printf("bitwise not 1's compliment :%d\n",~a); // 1's compelement
+    printf("bitwise not 1's compliment :%d\n",~b); // 1's compelement
+    //1's complement +1
+    printf("bitwise not 2's compliment :%d\n",~a+1); // 2's complement
+    printf("bitwise not 2's compliment :%d",~b+1);   // 2's complement
 }
